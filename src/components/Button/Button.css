@@ -1,0 +1,30 @@
+.button {
+  	composes: font from "../App.css";
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	background-color: transparent;
+	border: none;
+	white-space: nowrap;
+	text-decoration: none;
+	transition: 0.3s ease-out;
+}
+
+.default {
+	composes: button;
+	padding: .5rem 1rem;
+	font-size: .75rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	border-radius: .166rem;
+	background-color: #59cb59;
+}
+
+.alternate {
+	composes: button;
+	border: 1px solid #59cb59;
+	color: #59cb59;
+}

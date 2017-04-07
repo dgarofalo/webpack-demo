@@ -1,13 +1,15 @@
-.app {
-  text-size-adjust: none;
-  font-family: helvetica, arial, sans-serif;
-  line-height: 200%;
-  padding: 6px 20px 30px;
+html{
+    font-family: Proxima Nova,proxima-nova,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    color: #364141;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    cursor: default;
 }
 
-.hr {
-  margin: 40px 0;
-  height: 1px;
-  border: 0;
-  background: #ccc;
+.font {
+	font-size: 1rem;
+	font-family: "Proxima Nova",proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
